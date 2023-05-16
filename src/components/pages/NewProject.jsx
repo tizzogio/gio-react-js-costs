@@ -18,14 +18,15 @@ function NewProject() {
     fetch("http://localhost:5000/projects", {
       method: "POST",
       headers: {
-        'Content-type': 'applicaton/json'
+        "content-type" : "application/json"
       },
       body: JSON.stringify(project),
     })
     .then((res) => res.json())
     .then((data) => {
       console.log(`PROJETO CRIADO ${JSON.stringify(data)}`);
-      history('/projects', {message : "Projeto criado com sucesso!"});
+      //history('/projects', {message : "Projeto criado com sucesso!"});
+      history('/projects', { state: { message: 'Projeto criado com sucesso!' } })
     })
     .catch(err => console.log(`Erro na request ${err}`))
 
