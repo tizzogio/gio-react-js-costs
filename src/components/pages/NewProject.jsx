@@ -11,7 +11,7 @@ function NewProject() {
     
     // // Iniciando projetos e serviços
     project.cost = 0;
-    project.servicos = []
+    project.services = []
 
     console.log(JSON.stringify(project));
 

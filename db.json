@@ -1,14 +1,33 @@
 {
   "projects": [
     {
-      "name": "Projeto monstrão",
-      "budget": "100000",
+      "name": "Projeto monstrão saindo da jaula",
+      "budget": "10000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Dev"
       },
-      "cost": 0,
-      "servicos": [],
+      "cost": 224,
+      "services": [
+        {
+          "name": "servicço 01",
+          "cost": "112",
+          "description": "asdsadsa dasda",
+          "id": "efda58f5-7297-4889-ad01-74a505402e56"
+        },
+        {
+          "name": "e21312",
+          "description": "wqeqweqw",
+          "cost": "1",
+          "id": "f2fe4583-655f-4b65-8e76-128e45a6fd5f"
+        },
+        {
+          "name": "12312312",
+          "cost": "111",
+          "description": "33232",
+          "id": "425557de-c2cd-4088-8719-9f3b16d38e92"
+        }
+      ],
       "id": 1
     },
     {
@@ -19,7 +38,7 @@
         "name": "Dev"
       },
       "cost": 0,
-      "servicos": [],
+      "services": [],
       "id": 2
     },
     {
@@ -30,8 +49,26 @@
         "name": "Infra"
       },
       "cost": 0,
-      "servicos": [],
+      "services": [],
       "id": 3
+    },
+    {
+      "name": "Giovani Camargo Tizzo",
+      "budget": "1121",
+      "category": {
+        "id": "2",
+        "name": "Dev"
+      },
+      "cost": 11,
+      "services": [
+        {
+          "name": "serv1",
+          "cost": "11",
+          "description": "asdas",
+          "id": "e1bd919c-6fad-4dbe-bc77-ffda7e8c3de0"
+        }
+      ],
+      "id": 4
     }
   ],
   "categories": [
